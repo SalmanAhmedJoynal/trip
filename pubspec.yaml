@@ -1,0 +1,125 @@
+name: day2_trip
+
+description: a new flutter project.
+
+# the following defines the version and build number for your application.
+
+# a version number is three numbers separated by dots, like 1.2.43
+
+# followed by an optional build number separated by a +.
+
+# both the version and the builder number may be overridden in flutter
+
+# build by specifying --build-name and --build-number, respectively.
+
+# in android, build-name is used as versionname while build-number used as versioncode.
+
+# read more about android versioning at https://developer.android.com/studio/publish/versioning
+
+# in ios, build-name is used as cfbundleshortversionstring while build-number used as cfbundleversion.
+
+# read more about ios versioning at
+
+# https://developer.apple.com/library/archive/documentation/general/reference/infoplistkeyreference/articles/corefoundationkeys.html
+
+version: 1.0.0+1
+
+environment:
+
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+  flutter:
+
+    sdk: flutter
+
+  simple_animations: ^1.3.3
+
+  # the following adds the cupertino icons font to your application.
+
+  # use with the cupertinoicons class for ios style icons.
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+
+  flutter_test:
+
+    sdk: flutter
+
+# for information on the generic dart part of this file, see the
+
+# following page: https://dart.dev/tools/pub/pubspec
+
+# the following section is specific to flutter.
+
+flutter:
+
+  # the following line ensures that the material icons font is
+
+  # included with your application, so that you can use the icons in
+
+  # the material icons class.
+
+  uses-material-design: true
+
+  # to add assets to your application, add an assets section, like this:
+
+  assets:
+
+   - assets/images/one.jpg
+
+   - assets/images/two.jpg
+
+   - assets/images/three.jpg
+
+   - assets/images/four.jpg
+
+  #  - images/a_dot_ham.jpeg
+
+  # an image asset can refer to one or more resolution-specific "variants", see
+
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # for details regarding adding assets from package dependencies, see
+
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # to add custom fonts to your application, add a fonts section here,
+
+  # in this "flutter" section. each entry in this list should have a
+
+  # "family" key with the font family name, and a "fonts" key with a
+
+  # list giving the asset and other descriptors for the font. for
+
+  # example:
+
+  fonts:
+
+    - family: nunito
+
+      fonts:
+
+        - asset: assets/fonts/nunito-regular.ttf
+
+        - asset: assets/fonts/nunito-black.ttf
+
+        - asset: assets/fonts/nunito-bold.ttf
+
+  #   - family: trajan pro
+
+  #     fonts:
+
+  #       - asset: fonts/trajanpro.ttf
+
+  #       - asset: fonts/trajanpro_bold.ttf
+
+  #         weight: 700
+
+  #
+
+  # for details regarding fonts from package dependencies,
+
+  # see https://flutter.dev/custom-fonts/#from-packages 
